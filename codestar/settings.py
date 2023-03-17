@@ -32,7 +32,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['django-blog-kuro.herokuapp.com', 'localhost']
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -41,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
